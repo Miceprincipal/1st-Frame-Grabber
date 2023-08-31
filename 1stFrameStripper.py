@@ -2,7 +2,7 @@ from PIL import Image
 import os
 
 gif_folder = 'gif'
-output_folder = 'pngs'
+output_folder = 'png'
 
 if not os.path.exists(output_folder):
     os.makedirs(output_folder)
