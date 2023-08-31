@@ -1,7 +1,7 @@
 # 1st-Frame-Grabber
 Python Script to quickly bulk collect the 1st frame of gifs as .pngs.
 
-As default takes draws from subfolder *gif* and outputs to *pngs* because I am inconsistent in namning folders it appears.
+As default takes draws from subfolder *gif* and outputs to *png*.
 
 If you wish to prefix your output files
     
