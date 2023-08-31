@@ -12,7 +12,7 @@ gif_files.sort(key=lambda x: int(x.split('.')[0]))  # Sort by numeric prefix
 
 for idx, gif_file in enumerate(gif_files):
     gif_path = os.path.join(gif_folder, gif_file)
-    output_path = os.path.join(output_folder, f'Hobo{idx}.png')
+    output_path = os.path.join(output_folder, f'{idx}.png')
     
     with Image.open(gif_path) as gif_image:
         first_frame = gif_image.convert("RGBA").convert("RGB")
